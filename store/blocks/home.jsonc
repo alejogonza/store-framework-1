@@ -1,11 +1,12 @@
 {
-  "store.home": { 
+  "store.home": {
     "blocks": [
       "rich-text",
-      "info-card#button-left",  
+      "info-card#button-left",
       "info-card#button-right",
       "flex-layout.row",
-      "shelf"
+      "shelf",
+      "slider-layout#home"
     ]
   },
   "rich-text": {
@@ -42,14 +43,13 @@
       "blockClass": "metal"
     }
   },
-  "flex-layout.row":{
+  "flex-layout.row": {
     "children": [
       "info-card#rethink",
       "flex-layout.col"
     ]
   },
-  
- "info-card#rethink": {
+  "info-card#rethink": {
     "props": {
       "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/utensilios-cozinha-min.png",
       "isFullModeStyle": true,
@@ -58,7 +58,6 @@
       "textPosition": "center"
     }
   },
-
   "flex-layout.col": {
     "children": [
       "image#electronics",
