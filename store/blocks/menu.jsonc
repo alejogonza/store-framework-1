@@ -94,6 +94,7 @@
             "maxWidth": "200px"
         }
     },
+    
     "rich-text#header": {
         "props": {
             "text": "#### **Free shipping on orders over $50**"
